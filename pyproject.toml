@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hnt-to-turbotax"
+version = "0.1.0"
+description = ""
+authors = ["Francis Genet"]
+readme = "README.md"
+packages = [{include = "hnt_to_turbotax"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+ipdb = "^0.13.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
